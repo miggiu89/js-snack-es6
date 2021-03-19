@@ -40,14 +40,13 @@ squadre.forEach((element,index) => {
 
     element.punti = Math.floor(Math.random() * 10);
     element.falli = Math.floor(Math.random() * 40);
-    var {nome,falli} = element;
-    arrayVuoto.push({nome,falli});
+    
 });
 console.log(squadre);
 
 const arrayVuoto = [];
 
-/*var {nome,falli} = element;
-arrayVuoto.push({nome,falli});*/
+
+
 
 console.log(arrayVuoto);

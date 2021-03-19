@@ -53,3 +53,14 @@
         console.log(`la bici più leggera è ${nome} e pesa ${peso}`);
     }
  });
+
+ //correzione
+ var peso = [];
+ let biciLeggera = biciCorsa[0]
+ for (let i = 0; i < biciCorsa.length; i++){
+     if(biciCorsa[i].peso < biciLeggera.peso)
+ }
+
+ //correzione con for each
+ biciCorsa.forEach((element) => peso.push(element.peso));
+ var leggera = biciCorsa[pes]
